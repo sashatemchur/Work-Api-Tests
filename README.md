@@ -1,18 +1,29 @@
-# Work-Api-Tests
+### Work-Api-Tests
 
-Завдання 1
-Телеграм бот для збору інформації з Інстаграм. Бот на вхід приймає посилання на публікацю в інстаграм. На вихід віддає csv файл з коментарями та списком юзерів які вподобали публікацію.
+# Task 1
 
-Завдання 2
-Скрипт для збору інформації про сторінку користувача з сайту vk.com
-Скрипт може бути написаний на одній з наступних мов програмування: PHP, Python
-На вхід приймає посилання на сторінку користувача, створює csv файл з наступною інформацією:
-Анкетна інформація з сторінки (ПІБ, дата народження, сімейний статус, номер телефону, інтереси)
-Посилання на фотографії зі сторінки
-Кількість друзів
-Дата отсаннього відвідування сторінки
+Telegram bot for collecting data from Instagram.
+The bot receives a link to an Instagram post as input.
+As output, it generates a CSV file containing:
 
-Завдання 3
-Збір інформації з сайту OLX по ключовим словам. На вхід приймаємо ключові слова, на вихід отримуємо csv файл з посиланнями на оголошення та інформацію про продавця.
+Comments on the post
 
-Виконані завдання повинні бути завантаженні на ваші профілі в github, посилання на виконані завдання скидувати в тг користувачу https://t.me/morsresistis
+A list of users who liked the post
+
+
+
+# Task 2
+
+Script for collecting user profile data from vk.com.
+The script can be written in one of the following programming languages: PHP or Python.
+
+Input: a link to a user’s profile page.
+Output: a CSV file containing the following information:
+
+Profile information (full name, date of birth, marital status, phone number, interests)
+
+Links to photos from the profile
+
+Number of friends
+
+Date of last visit to the profile
